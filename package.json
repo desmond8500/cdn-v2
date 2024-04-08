@@ -10,6 +10,7 @@
   "author": "kratos",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "netlify-lambda": "^1.4.3",
     "serverless-http": "^1.9.1"
