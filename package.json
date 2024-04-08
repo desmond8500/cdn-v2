@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "server test",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "author": "kratos",
   "license": "ISC",
   "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   }
