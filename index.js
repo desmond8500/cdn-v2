@@ -11,17 +11,17 @@ app.use(express.static('public'))
 
 console.log(dotenv);
 
-if (dotenv.parsed) {
-  const port = 3000
-  app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-} else {
+// if (dotenv.parsed) {
+//   const port = 3000
+//   app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`)
+// })
+// } else {
   app.listen(process.env.PORT, function () {
     console.log(`Example app listening on port`)
   })
   
-}
+// }
 
 
 app.get('/tabler', (req, res) => {
