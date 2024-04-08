@@ -10,6 +10,13 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/tabler", (req, res) => {
+
+  res.sendFile(path.join(__dirname, 'public/tabler/tabler.html'));
+});
+
+
+
 app.use(`/.netlify/functions/api`, router);
 
 module.exports = app;
